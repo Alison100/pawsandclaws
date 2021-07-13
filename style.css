@@ -1,0 +1,89 @@
+body {
+	background-image: url(images/background.jpg);
+}
+
+.main-nav {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    font-size: 0.7em;
+}
+
+@media only screen and (max-width: 600px) {
+    .main-nav {
+        font-size: 0.5em;
+        padding: 0;
+    }
+}
+
+a, li {
+	font-family: 'Otomanopee One', sans-serif;
+	font-size:  20px;
+	text-transform: uppercase;
+	color: #ffffff;
+	padding: 20px;
+}
+
+
+.container {
+	color: #ffffff;
+}
+
+h1 {
+	text-transform: uppercase;
+	text-align: center;
+	font-family: 'Otomanopee One', sans-serif;
+	font-size: 50px;
+}
+
+
+h2 {
+	font-family: 'Otomanopee One', sans-serif;
+	font-size: 40px;
+}
+
+p {
+	text-transform: lowercase;
+	font-family: 'Permanent Marker', cursive;
+	font-size: 30px;
+	line-height: 50px;
+}
+
+img {
+	float: left;
+	padding: 5px 20px;
+	margin: 0px 20px;
+}
+
+footer {
+	clear: both;
+	text-align: center;
+	color: #ffffff;
+	font-family: 'Otomanopee One', sans-serif;
+	font-size: 20px;
+	text-transform: uppercase;
+}
+
+.button {
+    height:2em;
+    padding:15px 50px;
+    margin:20px 40px;
+    cursor:pointer;
+    display:inline-block;
+    color:#fff;
+    font-size:20px;
+    border:1px solid #eee;
+    background:#208746;
+    border-radius:4px;
+    line-height:2em;
+    border:1px solid #aaa;
+    text-decoration:none;
+
+    -webkit-transition: all 0.3s linear;
+     -khtml-transition: all 0.3s linear;
+       -moz-transition: all 0.3s linear;
+         -o-transition: all 0.3s linear;
+            transition: all 0.3s linear;
+}
+
+
